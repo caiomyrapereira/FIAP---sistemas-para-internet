@@ -1,3 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Roboto:wght@300&display=swap');
+
 body{
-    background-color: aqua;
+    margin: 0;
+    background: linear-gradient(90deg, #38AECC 0%, #38AECC 50%, 50%, #d3d3d3 100%);
+}
+
+#container{
+    width: 992px;
+    max-width: 100%;
+    margin: 0  auto;
+    background-image: url("../img/top.png");
+    background-repeat:no-repeat;
+    background-color: #fff;
+    box-shadow: 5px 0 10px -5px #022F40;
+}
+
+/* ---  aboutMe --- */
+#aboutMe{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card{
+    width: 261.500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+   width: 196.125px;
+   height: 196.125px;  
+   border-radius: 50% !important;
+   border: 10px solid #fff;
+}
+
+.phone img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% !important;
+}
+
+#aboutMe h1{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+#aboutMe h2{
+    text-align: left;
+    margin-top: 0px;
+}
+
+.described{
+    width: 730px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.described p{
+    text-align: justify;
+}
+
+/*-- experience and academy ---*/
+
+#knowledge{
+    display: flex;
+    height: 400px;
+    padding:  50px 0;
+    background: linear-gradient(120deg, #38AECC 0%, #38AECC 50%, 50%, #d3d3d3 100%);
+}
+
+.hardSkills, .softkill, .experience, .academy{
+    width: 495px;
+    max-width: 100%;
+    padding:20px 20px 20px  0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.experience ul, .softkill ul, .academy ul, .hardSkills ul {
+    border-left: 5px solid #046E8F;
+}
+
+.academy div{
+    margin-left: 25px;
+}
+
+.academy ul li h4, p{
+    margin: 5px 0;
+}
+
+.experience div,  .hardSkills div  {
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-height: 250px;
+    max-height: 500px;
+    height: auto;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+/*-- hard kill and soft kill --*/
+
+#skills{
+    display: flex;
+    height: 400px;
+    padding:  50px 0;
+    background: linear-gradient(60deg, #38AECC 0%, #38AECC 50%, 50%, #d3d3d3 100%);
+}
+
+.hardSkills ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.hardSkills ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+}
+
+.hardSkills ul li i{
+    margin-right: 15px;
+    font-size: 40px;
+    color: #022F40;
+}
+
+.fa-html5{
+    color: hsl(15deg 81% 50%)  !important;
+}
+
+.fa-angular{
+    color:#c3002f !important;
+}
+
+.fa-css3-alt{
+    color: #006bc0 !important;
+}
+
+.fa-js{
+    color:#948612 !important;
+}
+
+.fa-java{
+    color: #0476b4 !important;
+}
+
+.fa-leaf{
+    color: #6db33f !important;
+}
+
+.fa-git-alt{
+    color:#f05033 !important;
+}
+
+.fa-bootstrap{
+    color:#7609f6 !important;
+}
+
+.fa-database{
+    color:#204d67 !important;
+}
+
+.hardSkills ul li i:hover{
+    font-size: 45px;
+}
+
+.softkill div{
+    margin-left: 25px;
+}
+
+
+.softkill ul li{
+    margin-bottom: 10px;
+}
+
+
+/*-- network --*/
+
+#network{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #022F40;
+}
+
+#network ul{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#network ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#network ul li a i{
+    font-size: 25px;
+    margin-right: 5px;
 }
